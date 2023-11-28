@@ -1,0 +1,7 @@
+fname = str(input("введите имя"))
+lname = str(input("введите фамилию"))
+otchstv = str(input("введите отчество"))
+age = int(input("введите возраст"))
+city = str(input("введите город"))
+print(fname, lname, otchstv)
+print(age, city)
