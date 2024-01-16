@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock %}
+
+{% block body %}
+
+<h1>About page</h1>
+
+<h2>{{ data }}</h2>
+
+<img src="{{ url_for('static', filename='images/christmas.jpg') }}" alt="#">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores deserunt dolorem eaque est et explicabo fuga hic illum ipsam laudantium nihil officia omnis perferendis quasi ratione rerum, sequi vero?</p>
+
+{% endblock %}
